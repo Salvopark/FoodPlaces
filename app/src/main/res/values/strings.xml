@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoodPlaces</string>
+    <string name="starter">Should never see this</string>
+    <string name="end_of_list">No More Options</string>
+    <string name="no_match">No matches found</string>
+    <string name="or">OR</string>
+    <string name="current_selection">Current Selection</string>
+    <string name="filter_selection">Filter</string>
+    <string name="submit_filters">Submit</string>
+    <string name="price">Price</string>
+    <string name="price_clear">Clear</string>
+    <string name="price_1">$</string>
+    <string name="price_2">$$</string>
+    <string name="price_3">$$$</string>
+    <string name="price_4">$$$$</string>
+</resources>

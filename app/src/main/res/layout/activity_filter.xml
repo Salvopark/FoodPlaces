@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <GridLayout
+            android:id="@+id/attr_layout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="100dp"
+            android:layout_margin="100dp">
+
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:id="@+id/price_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="50dp">
+
+            <TextView
+                android:id="@+id/test_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:text="@string/submit_filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

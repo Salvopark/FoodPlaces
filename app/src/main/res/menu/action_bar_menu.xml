@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/price_selector_clear"
+        android:title="@string/price_clear"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/price_selector_1"
+        android:title="@string/price_1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/price_selector_2"
+        android:title="@string/price_2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/price_selector_3"
+        android:title="@string/price_3"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/price_selector_4"
+        android:title="@string/price_4"
+        app:showAsAction="always"/>
+</menu>
